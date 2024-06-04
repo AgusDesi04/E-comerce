@@ -8,6 +8,7 @@ function App() {
       <Header />
       <Main />
       <Footer />
+      <Button variant="primary">Primary</Button>{' '}
     </>
   )
 }

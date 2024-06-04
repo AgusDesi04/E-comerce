@@ -1,14 +1,10 @@
+import NavBarBootsrap from "./NavBarBootsrap";
+
 function NavBar(props) {
   if (props.isHeader == true) {
     return (
-      <nav>
-        <a href="">HOME</a>
-        <br />
-        <a href="">CONTACTO</a>
-        <br />
-        <a href="">PRODUCTOS</a>
-      </nav>
-    )
+      <h1>hola</h1>
+    );
   } else {
     return (
       <nav>
