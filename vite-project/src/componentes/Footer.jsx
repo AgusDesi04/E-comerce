@@ -1,3 +1,4 @@
+
 import NavBar from "./NavBar"
 
 function Footer() {
@@ -5,6 +6,7 @@ function Footer() {
     <div>
       <h3>Copyright - agusdesi</h3>
       <NavBar isHeader={false} />
+
     </div>
   )
 

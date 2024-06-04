@@ -1,9 +1,11 @@
+// import NavBarBootsrap from "./NavBarBootsrap";
+
 import NavBarBootsrap from "./NavBarBootsrap";
 
 function NavBar(props) {
   if (props.isHeader == true) {
     return (
-      <h1>hola</h1>
+      <NavBarBootsrap />
     );
   } else {
     return (
