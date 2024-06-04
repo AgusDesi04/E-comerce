@@ -1,9 +1,8 @@
-
 import NavBar from "./NavBar"
 
 function Footer() {
   return (
-    <div>
+    <div className="absolute bottom-0">
       <h3>Copyright - agusdesi</h3>
       <NavBar isHeader={false} />
 

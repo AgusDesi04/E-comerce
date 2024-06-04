@@ -1,7 +1,5 @@
-// import NavBarBootsrap from "./NavBarBootsrap";
-
-import NavBarBootsrap from "./NavBarBootsrap";
-
+import NavBarBootsrap from "./NavBarBootsrap.jsx";
+  
 function NavBar(props) {
   if (props.isHeader == true) {
     return (

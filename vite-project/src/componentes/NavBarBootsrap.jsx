@@ -5,15 +5,15 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavBarBootsrap() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <Navbar expand="lg" className="bg-body-tertiary p-0">
+      <Container className=' absolute top-0 left-0 bg-[#242424]'>
+        <Navbar.Brand href="#home"><img src="../public/carstorelogo.jpg" alt="" className='size-20 hover:size-24'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <Nav.Link href="#home" className='text-white m-4 text-9xl'>Home</Nav.Link>
+            <Nav.Link href="#link" className='text-white m-4 text-9xl'>Link</Nav.Link>
+            <NavDropdown title="Dropdown" id="basic-nav-dropdown" className='bg-[#DAA520] m-4 '>
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
