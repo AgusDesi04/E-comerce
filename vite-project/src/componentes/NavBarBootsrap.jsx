@@ -7,7 +7,7 @@ function NavBarBootsrap() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary p-0">
       <Container className=' absolute top-0 left-0 bg-[#242424]'>
-        <Navbar.Brand href="#home"><img src="../public/carstorelogo.jpg" alt="" className='size-20 hover:size-24'/></Navbar.Brand>
+        <Navbar.Brand href="#home"><img src="../public/carstorelogo.jpg" alt="" className='size-20 hover:size-24 duration-150'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

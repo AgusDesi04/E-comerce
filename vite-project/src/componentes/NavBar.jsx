@@ -7,7 +7,7 @@ function NavBar(props) {
     );
   } else {
     return (
-      <nav>
+      <nav className="justify-center">
         <a href="">F.A.Q</a>
         <br />
         <a href="">Terminos y Condiciones</a>

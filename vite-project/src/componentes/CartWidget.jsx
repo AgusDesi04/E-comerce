@@ -11,7 +11,7 @@ function CartWidget({...props }) {
   return (
     <>
       <Button variant="dark" onClick={handleShow} className="me-2 absolute right-0 bg-[#242424]">
-        <img src="../public/carroCompras.png" alt="Carro de Compras" className='size-16' />
+        <img src="/carroCompras.png" alt="Carro de Compras" className='size-16' />
       </Button>
       <Offcanvas show={show} onHide={handleClose} {...props} placement='end' keyboard='true' >
         <Offcanvas.Header closeButton className='bg-[#242424] text-white'>

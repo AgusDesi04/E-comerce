@@ -18,3 +18,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+/* color general de las letras */
+p,
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+}
