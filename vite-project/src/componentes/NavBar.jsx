@@ -1,5 +1,6 @@
 import NavBarBootsrap from "./NavBarBootsrap.jsx";
-  
+import { Link } from "react-router-dom";
+
 function NavBar(props) {
   if (props.isHeader == true) {
     return (
@@ -8,11 +9,11 @@ function NavBar(props) {
   } else {
     return (
       <nav className="justify-center">
-        <a href="">F.A.Q</a>
+        <Link to="">F.A.Q</Link>
         <br />
-        <a href="">Terminos y Condiciones</a>
+        <Link to="">Terminos y Condiciones</Link>
         <br />
-        <a href="">Contacto</a>
+        <Link to="">Contacto</Link>
       </nav>
     )
   }
